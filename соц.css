@@ -1,0 +1,30 @@
+body {
+    background-color: #1a1a2e; 
+    text-align: center; 
+    padding-top: 100px;
+    font-family: sans-serif;
+}
+
+.crystal-button {
+    text-decoration: none;
+    color: #f0f0f0;
+    padding: 15px 40px;
+    background-color: #4a00e0;
+    border: 2px solid #8e2de2;
+    border-radius: 50px;
+    transition: all 0.4s;
+    
+}
+
+.crystal-button:hover{
+    background-color: #8e2de2;
+    border:2px solid  #c67dff;
+    color: white;
+}
+
+.crystal-button:active{
+    background-color: #f0f0f0;
+    border:2px solid #ffffff;
+    color: #333;
+}
+
