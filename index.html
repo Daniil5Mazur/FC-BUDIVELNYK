@@ -23,8 +23,17 @@
 
         <ul class="menu">
             <li><a class="menu-link" href="#">Головна</a></li>
-            <li><a class="menu-link" href="squad.html">Склад</a></li>
-             <li><a class="menu-link" href="admin.html">Адміністрація</a></li>
+           <li onmouseover="document.getElementById('sub').style.display='block'"
+    onmouseout="document.getElementById('sub').style.display='none'">
+
+  <a href="#">Склад</a>
+
+  <ul id="sub" style="display:none; position:absolute; background:#ffffff;">
+    <li><a href="squad.html">Гравці</a></li>
+    <li><a href="admin.html">Адміністрація</a></li>
+  </ul>
+
+</li>
             <li><a class="menu-link" href="https://start.uaf.ua/tournament/30005509">Таблиця</a></li>
              <li><a class="menu-link" href="ist.html">Історія клубу</a></li>
             <li><a class="menu-link" href="Соц_мер.html">Соціальні мережі</a></li>
