@@ -103,8 +103,9 @@ main {
 .card-content h1 {
     font-size: 18px;
     margin: 0;
-    text-shadow: 2px 2px #060606, -2px -2px #000000;
     transition: all 0.3s ease;
+    
+    
 }
 
 .card-content h1:hover {
@@ -119,4 +120,5 @@ main {
     background-color: #32322e;
     color: white;
     margin-top: 20px;
+
 }
