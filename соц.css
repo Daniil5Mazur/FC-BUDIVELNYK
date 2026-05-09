@@ -1,5 +1,5 @@
 body {
-    background-color: #1a1a2e; 
+    background-color: #000000; 
     text-align: center; 
     padding-top: 100px;
     font-family: sans-serif;
@@ -9,16 +9,16 @@ body {
     text-decoration: none;
     color: #f0f0f0;
     padding: 15px 40px;
-    background-color: #4a00e0;
-    border: 2px solid #8e2de2;
+    background-color: #89b02c;
+    border: 2px solid #afce27c3;
     border-radius: 50px;
     transition: all 0.4s;
     
 }
 
 .crystal-button:hover{
-    background-color: #8e2de2;
-    border:2px solid  #c67dff;
+    background-color: #6eac09;
+    border:2px solid  #c3c910;
     color: white;
 }
 
