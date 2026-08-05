@@ -28,3 +28,65 @@ body {
     color: #333;
 }
 
+.form-container {
+  display: flex;
+  justify-content: center;
+  padding: 70px;
+}
+
+h2{
+    color:white;
+}
+
+.register-form {
+  background: #603cba;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 800px;
+  font-family: Arial, sans-serif;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block; 
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+  transition: border-color 0.3s;
+}
+
+
+input:focus {
+  border-color:  #8a2be2;
+  outline: none; 
+  box-shadow: 0 0 5px rgba(0,123,255,0.3);
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 12px;
+  background-color:  #8a2be2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointeer;
+  transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+  background-Color:  #8a2be2;
+}
