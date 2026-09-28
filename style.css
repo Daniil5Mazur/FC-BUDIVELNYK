@@ -1,16 +1,20 @@
+header h2 {
+    color: purple;
+}
 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background: linear-gradient(135deg, #100f0f, #cfff25, #cce701);
+    background: linear-gradient(135deg, #000000, #ada811, #b4ca0e);
 }
 
 
 header {
-    background-color: #fff;
+   
+    background-color: #000000;
     padding: 20px;
     text-align: center;
-    border-bottom: 4px solid #000000;
+    border-bottom: 4px solid #f5f1f1;
 }
 
 header h2 {
